@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between items-center max-w-7xl mx-6 my-7 md:mx-auto">
+            <img src="assets/logo.png" class="h-10" alt="">
+            <ul class="md:flex gap-2.5">
+                <div class="md:flex hidden gap-2.5">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >Shop</a></li>
+                    <li><a href="#" >About us</a></li>
+                </div>
+                <li><a href="#" class="pl-3"><i class="fa-solid fa-cart-shopping hover:text-green-500"></i> cart ($56)</a></li>
+            </ul>
+        </nav>
+        <section class="banner max-w-7xl flex  flex-col gap-7 justify-center items-center mx-auto md:flex-row-reverse md:items-end">
+            <img src="assets/hero-flower.png" alt="">
+            <div class="banner-text gap-2 p-5">
+                <h1 class="text-6xl">ALWAYS <span class="text-[#E95A08]">Fresh <br>FLOWERS</span></h1>
+                <p class="text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+        </section>
+        
+    </header>
+    <main>
+        <section class="card mt-16 flex flex-col justify-center items-center text-center p-5 mb-30">
+            <div class="cart-text mb-6 p-5">
+                <h1 class="text-2xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
+                <p class="text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="carts grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
+                <div class="cart flex-col gap-7">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7 hidden md:block">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+                <div class="cart flex-col gap-7 hidden md:block">
+                    <img src="assets/sample-flower-image.png"  alt="">
+                    <h3 class="font-bold">Lily Blossom <br> 20 USD</h3>
+                    <button class=" text-white bg-[#E95A08] px-20 py-5 cursor-pointer">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+        <section class="lover max-w-6xl flex flex-col justify-center items-center mx-auto m-5 p-4 gap-5 md:flex-row md:relative ">
+            <div class="badge w-xs hidden md:block md:z-10 md:absolute md:-top-35 md:right-160">
+                <img src="assets/trusted-badge.png" alt="">
+            </div>
+            <div class="lover-img">
+                <img src="assets/flower-store.png" alt="">
+            </div>
+            <div class="lover-text">
+                <h1 class="text-4xl font-bold md:text-3xl">Flower & Plants Lover</h1>
+                <ul class="list-disc list-inside space-y-2">
+                    <li class="text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="deals-container flex flex-col justify-center items-center text-center md:mx-40 md:my-32 gap-30">
+            <div>
+                <h1 class="text-2xl"><span class="text-[#E95A08]">Latest </span>Deals</h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <section class="deals grid grid-cols-1 gap-7 w-85 mx-auto md:w-full md:max-w-6xl md:grid-cols-3 md:grid-rows-2 md:[grid-template-areas:'bloom_zabo_zabo'_'ana_zabo_zabo']">
+                <div class="bg-gray-700 rounded-2xl">
+                    <div class="deal bg-[url(assets/deal-bloom.png)] opacity-90 bg-cover bg-center h-48 rounded-lg md:[grid-area:bloom] flex flex-col justify-center items-center">
+                        <h1 class="text-xl text-white font-bold">60% Off | Bloom Plant</h1>
+                        <p><a href="#" class="text-xl font-bold text-white underline cursor-pointer">Shop Now</a></p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-2xl"></div>
+                    <div class="deal bg-[url(assets/deal-zabo.png)] opacity-90 bg-cover bg-center h-48 rounded-2xl md:[grid-area:zabo] md:h-auto flex flex-col justify-center items-center">
+                        <h1 class="text-xl text-white font-bold md:text-2xl">25% Off | Zabo Plant</h1>
+                        <p><a href="#" class="text-xl font-bold text-white underline cursor-pointer">Shop Now</a></p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-2xl"></div>
+                    <div class="deal bg-[url(assets/deal-ana.png)] opacity-90 bg-cover bg-center h-48 rounded-2xl md:[grid-area:ana] flex flex-col justify-center items-center">
+                        <h1 class="text-xl text-white font-bold">30% Off | Ana  Plant</h1>
+                        <p><a href="#" class="text-xl font-bold text-white underline cursor-pointer">Shop Now</a></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="join mt-30">
+            <div class="join-bg flex flex-col bg-cover bg-center w-full h-96 justify-center items-center text-center" 
+                style="background-image: url('assets/news-letter-bg.png');">
+                <h1 class="text-6xl text-white font-bold">Join the colorful Bunch</h1>
+                <div class="flex p-4 md:p-0">
+                    <input class=" max-h-12 px-4 md:w-[644px] bg-white " type="email" name="Write-email" placeholder="Write Email" id="">
+                    <button class="bg-orange-400 px-[19px] py-[12px] text-white font-bold">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="foot mx-auto my-13 grid grid-cols-1 pl-5 md:gap-27 md:grid-cols-4 md:mx-40 md:pl-0">
+            <div class="foot-text flex flex-col gap-4">
+                <img src="assets/logo.png" class="h-14 w-25" alt="">
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div class="page-1">
+                <ul class="grid gap-8">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Abour Us</a></li>
+                    <li><a href="#"></a>Blog</li>
+                    <li><a href="#"></a>FAQ</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul>
+            </div>
+            <div class="page-2">
+                <ul class="grid gap-8">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                    <li><a href="#">Help center</a></li>
+                </ul>
+            </div>
+            <div class="socials flex gap-6">
+                <img class="h-9 w-9" src="assets/icon-linkedin.png" alt="">
+                <img class="h-8 w-8" src="assets/icon-twitter.png" alt="">
+                <img class="h-9 w-9" src="assets/icon-facebook.png" alt="">
+                <img class="h-9 w-9" src="assets/icon-youtube.png" alt="">
+            </div>
+            
+        </section>
+    </footer>
+</body>
+</html>
